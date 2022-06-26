@@ -1,0 +1,32 @@
+baseURL: ""
+languageCode: en-us
+title: A&P
+theme: PaperMod 
+
+params:
+
+
+  ShowBreadCrumbs: true
+  homeInfoParams:
+    Title: "hello stranger"
+    Content: welcome to a and p consturctions
+  
+
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+  - identifier: categories
+    name: Categories
+    pre: <i class='fa fa-heart'></i>
+    url: /categories/
+    weight: 10
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 20
+  - identifier: archives
+    name: Archives
+    url: /archives/
+    weight: 30
